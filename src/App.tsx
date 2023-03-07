@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="App">
       <LinearProgressBar
-        startTime="1"
-        endTime="3"
-        loading="copenhagen"
-        discharge="Norvay"
+        startTime="11"
+        endTime="20"
+        loading="Copenhagen"
+        discharge="Oslo"
       />
     </div>
   );

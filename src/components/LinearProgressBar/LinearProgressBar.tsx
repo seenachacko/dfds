@@ -21,7 +21,6 @@ const LinearProgressBar = (props: LinearProgressBarProps) => {
   function refreshClock() {
     const localTime = new Date().toLocaleTimeString("en-US", { hour12: false });
     setDate(localTime);
-    console.log("hi", localTime);
   }
   useEffect(() => {
     const timerId = setInterval(refreshClock, 60000);
